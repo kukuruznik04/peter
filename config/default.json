@@ -9,7 +9,7 @@
 		//Set your development-specific values in local.json
 		"host": "localhost",
 		"port": 443,
-		"httpport": 8081
+		"httpport": 80
 	},
 
 	"finalpriceDB":
