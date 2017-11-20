@@ -1,0 +1,1 @@
+angular.module('finalpriceApp', ['ui.router', 'ui.bootstrap', 'ngStorage']);

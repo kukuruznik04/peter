@@ -1,0 +1,64 @@
+<!--<div id="main">-->
+<div class="content" ng-controller="mainController">
+    <div class="FlexWrapper">
+        <div class="FlexItems FlexContent">
+            <img class="center-image" src="https://rm-content.s3-accelerate.amazonaws.com/5861a746ee966e0068bb7c35/906608/upload-a35bd830-ca71-11e7-91c1-538051fdfc81.png" style="opacity: 1;" url="https://rm-content.s3-accelerate.amazonaws.com/5861a746ee966e0068bb7c35/906608/upload-a35bd830-ca71-11e7-91c1-538051fdfc81.png">
+        </div>
+            <div class="FlexItems FlexSideOne">
+                <div class="big-words">
+                    <b>Wholesale<br> rates for</b>
+            </div>
+        </div>
+        <div class="FlexItems FlexSideTwo">
+            <br><br><br><br>
+            <div class="big-words2"><b>any your travel</b></div>
+            <table>
+                <tr>
+                    <td>
+                        <img src="../../img/earth.png">
+                    </td>
+                    <td>
+                        Travel domestic or international
+                        with no-limits
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../../img/tag.png">
+                    </td>
+                    <td>
+                        Get wholesale rates from:
+                        980,000+ hotels
+                        700+ airlines
+                        30+ car rentals
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../../img/people.png">
+                    </td>
+                    <td>
+                        6 members per subscription included
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="FlexItems FlexHeader">
+            <img src="../../img/finalprice.png">
+        </div>
+        <div class="FlexItems FlexFooter">
+            <form name="form" class="form-group" ng-class="{'has-success':form.phoneNumber.$valid, 'has-error':form.phoneNumber.$invalid && form.phoneNumber.$dirty}">
+                <!--<div ng-class="{'has-success':form.phoneNumber.$valid, 'has-error':form.phoneNumber.$invalid && form.phoneNumber.$dirty}">-->
+                Text me a link to the free app:
+                <input name="phoneNumber" type="text" ng-model="phoneNumber" class="form-control" ng-pattern="regexPhone" />
+                <span ng-if="!form.phoneNumber.$invalid && !form.phoneNumber.$dirty" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                <button ng-click="submitNumber(form)">
+                    <div ng-class="sendButtonText?'caption':'caption glyphicon glyphicon-ok'">{{sendButtonText}}</div>
+                </button>
+                <!--</div>-->
+            </form>
+        </div>
+    </div>
+
+</div>
+<!--</div>-->

@@ -1,0 +1,35 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+
+public/libs
+
+Ignore system-specific config override
+/config/local.json
+
+#Ignore all .* settings files in root (e.g. sublime)
+/.*
+#But allow gitignore settings's file
+!.gitignore
+#But allow gitignore settings's file
+!.bowerrc
+#Allow Eclipse IDE settings
+!/.project
+!/.settings
+#But allow eslint settings
+!.eslintignore
+!.eslintrc.js
+!.eslintrc-angular.js
+!.eslintrc-node.js
